@@ -27,7 +27,7 @@ class _FirstState extends State<First> {
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(30)),
-                  prefixIcon: Icon(Icons.timelapse),
+                  prefixIcon: const Icon(Icons.timelapse),
                   labelText: 'Pick Time',
                   labelStyle: const TextStyle(
                     fontSize: 16,
@@ -53,7 +53,7 @@ class _FirstState extends State<First> {
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(30)),
-                  prefixIcon: Icon(Icons.calendar_today),
+                  prefixIcon: const Icon(Icons.calendar_today),
                   labelText: 'Pick Date',
                   labelStyle: const TextStyle(
                     fontSize: 16,
